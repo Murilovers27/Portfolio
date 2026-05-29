@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@300;400;500;600&display=swap');
+
+:root {
+    /* Fundos */
+    --color-bg-primary:     #00183E;   /* azul noite profundo — fundo principal */
+    --color-bg-secondary:   #001736;   /* variação mais escura */
+    --color-bg-surface:     #0A2454;   /* cards, painéis */
+    --color-bg-elevated:    #0D2D66;   /* elementos elevados */
+
+    /* Espaçamento */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+    --space-7: 48px;
+    --space-8: 64px;
+    --space-9: 96px;
+    --space-10: 128px; 
+}
