@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-,     "src/components/NavBar/NavBar.jsx", "src/app/layout.jsx", "src/app/page.jsx"  ],
+,     "src/components/NavBar/NavBar.jsx", "src/app/layout.jsx", "src/app/page.jsx", "src/components/Projects/Projects.jsx"  ],
   "exclude": ["node_modules"]
 }

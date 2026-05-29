@@ -1,13 +1,11 @@
+import Hero from '@/components/Hero/Hero';
+import About from '@/components/About/About'
+
 export default function Home() {
   return (
     <main>
-      {}
-      {/* <Hero /> */}
-      {/* <About /> */}
-      {/* <Projects /> */}
-      {/* <Skills /> */}
-      {/* <Experience /> */}
-      {/* <Contact /> */}
+      <Hero />
+      <About />
     </main>
   );
 }
