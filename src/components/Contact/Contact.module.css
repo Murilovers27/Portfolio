@@ -1,62 +1,46 @@
-.hero {
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--space-9) var(--space-6);
+}
+
+/* TÍTULO */
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-6);
+}
+
+.sectionTitle h2 {
+  font-family: var(--font-body);
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.titleIcon {
+  color: var(--color-gold);
+  flex-shrink: 0;
+}
+
+/* CARD */
+.card {
+  background-color: var(--color-bg-surface);
+  border-radius: var(--radius-md);
+  padding: var(--space-8) var(--space-6);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: var(--space-6) var(--space-6) var(--space-10);
-  min-height: calc(100vh - 65px);
-  max-width: 720px;
-  margin: 0 auto;
+  gap: var(--space-6);
 }
 
-/* AVATAR */
-.avatar {
-  
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-bottom: var(--space-6);
-  background: linear-gradient(135deg, var(--color-accent-sky), var(--color-gold));
-}
-
-.avatarImg {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-/* TEXTOS */
-.greeting {
-  font-family: var(--font-body);
-  font-size: var(--text-3xl);
-  font-weight: 600;
-  color: var(--color-text-primary);
-  margin-bottom: var(--space-3);
-}
-
-.name {
-  color: var(--color-accent-cyan);
-}
-
-.role {
-  font-family: var(--font-body);
-  font-size: var(--text-lg);
-  font-weight: 500;
-  color: var(--color-gold);
-  margin-bottom: var(--space-5);
-}
-
-.bio {
+.text {
   font-family: var(--font-body);
   font-size: var(--text-base);
   font-weight: 400;
   color: var(--color-text-secondary);
-  line-height: 1.75;
-  margin-bottom: var(--space-7);
-  max-width: 600px;
+  text-align: center;
 }
 
 /* BOTÕES */
@@ -91,6 +75,7 @@
 .btnOutline {
   display: inline-flex;
   align-items: center;
+  gap: var(--space-2);
   padding: 12px 28px;
   font-family: var(--font-body);
   font-size: var(--text-sm);
@@ -111,7 +96,14 @@
 
 /* RESPONSIVO */
 @media (max-width: 480px) {
-  .greeting { font-size: var(--text-2xl); }
-  .buttons { flex-direction: column; width: 100%; }
-  .btnPrimary, .btnOutline { width: 100%; justify-content: center; }
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .btnPrimary,
+  .btnOutline {
+    width: 100%;
+    justify-content: center;
+  }
 }

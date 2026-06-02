@@ -5,7 +5,11 @@ export default function Hero() {
     <section className={styles.hero}>
 
       <div className={styles.avatar}>
-        <img src="/avatar.jpg" alt="Murilo Cruz" className={styles.avatarImg} />
+        <div className={styles.avatar}>
+  <img
+    src="/avatar.jpg" alt="Murilo Cruz" className={styles.avatarImg}/>
+</div>
+                
       </div>
 
       <h1 className={styles.greeting}>
@@ -21,7 +25,7 @@ export default function Hero() {
 
       <div className={styles.buttons}>
         <a
-          href="https://github.com/seu-usuario"
+          href="https://github.com/Murilovers27"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.btnPrimary}
