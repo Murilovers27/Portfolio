@@ -12,13 +12,18 @@
 
 /* AVATAR */
 .avatar {
-  
-  width: 200px;
-  height: 200px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   overflow: hidden;
   margin-bottom: var(--space-6);
   background: linear-gradient(135deg, var(--color-accent-sky), var(--color-gold));
+  border: 2px solid rgba(255, 197, 74, 0.3);
+  transition: border-color var(--transition-base);
+}
+
+.avatar:hover {
+  border-color: var(--color-gold);
 }
 
 .avatarImg {
@@ -27,6 +32,8 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+
 
 /* TEXTOS */
 .greeting {

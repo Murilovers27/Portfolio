@@ -14,7 +14,7 @@ export default function About() {
 
       <div className={styles.card}>
         <p className={styles.text}>
-          Sou Murilo Cruz, tenho 19 anos e sou estudante de Análise e Desenvolvimento
+          Sou Murilo Cruz, tenho 20 anos e sou estudante de Análise e Desenvolvimento
           de Sistemas do 5° período. Bem-vindo ao meu pequeno mundo tecnológico.
         </p>
         <p className={styles.text}>

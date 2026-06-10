@@ -1,9 +1,11 @@
 'use client';
 
+import Logo from './Logo'
 import styles from './NavBar.module.css';
 
 const NAV_LINKS = [
   { label: 'Sobre',       href: '#about'      },
+  { Label: 'Experiencia', href: '#experience'},
   { label: 'Projetos',    href: '#projects'   },
   { label: 'Habilidades', href: '#skills'     },
   { label: 'Contato',     href: '#contact'    },
@@ -13,11 +15,7 @@ export default function NavBar() {
   return (
     <header className={styles.navbar}>
       <nav className={styles.inner}>
-
-        <a href="#" className={styles.logo}>
-          <span className={styles.logoIcon}>&lt;/&gt;</span>
-          <span className={styles.logoText}>Portfólio</span>
-        </a>
+        <Logo/>
 
         <ul className={styles.links}>
           {NAV_LINKS.map(({ label, href }) => (

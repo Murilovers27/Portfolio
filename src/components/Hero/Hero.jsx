@@ -20,7 +20,7 @@ export default function Hero() {
 
       <p className={styles.bio}>
         Apaixonado por criar experiências digitais incríveis e soluções tecnológicas inovadoras.
-        Especializado em desenvolvimento web moderno com foco em performance e experiência do usuário.
+        Focado em desenvolvimento web moderno com foco em performance e experiência do usuário.
       </p>
 
       <div className={styles.buttons}>

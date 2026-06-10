@@ -25,19 +25,6 @@
   text-decoration: none;
 }
 
-.logoIcon {
-  font-family: var(--font-heading);
-  font-size: var(--text-lg);
-  font-weight: 700;
-  color: var(--color-accent-cyan);
-}
-
-.logoText {
-  font-family: var(--font-body);
-  font-size: var(--text-base);
-  font-weight: 500;
-  color: var(--color-text-primary);
-}
 
 /* LINKS */
 .links {
