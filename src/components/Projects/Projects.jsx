@@ -4,12 +4,12 @@ import styles from './Projects.module.css';
 
 const PROJECTS = [
   {
-    slug: 'sistema-de-tarefas',
-    title: 'Sistema de Gerenciamento de Tarefas',
-    description: 'Aplicação full-stack para gerenciamento de projetos com autenticação, dashboards e relatórios em tempo real.',
-    tags: ['React', 'Node.js', 'PostgreSQL', 'TypeScript'],
-    github: 'https://github.com/seu-usuario/projeto',
-    demo: 'https://projeto.vercel.app',
+    slug: 'My-Pet-Zone',
+    title: 'Sistema de PetFriend',
+    description: 'Uma aplicação Android com o intuito de centralizar em m unico lugar tudo que seu pet precisa no dia a dia, com função de busca de locais petFriendily, gerenciamento de estoque e caretirinha de vacinação e um bot personalizado para te auxilar, tudo na palma dua mão.',
+    tags: ['React - expo', 'FireBase', 'Botpress'],
+    github: 'https://github.com/ViniciuspPantoja/AppMypet',
+    demo: '',
   },
   {
     slug: 'ecommerce-platform',
