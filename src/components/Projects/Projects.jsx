@@ -9,7 +9,7 @@ const PROJECTS = [
     description: 'Uma aplicação Android com o intuito de centralizar em m unico lugar tudo que seu pet precisa no dia a dia, com função de busca de locais petFriendily, gerenciamento de estoque e caretirinha de vacinação e um bot personalizado para te auxilar, tudo na palma dua mão.',
     tags: ['React - expo', 'FireBase', 'Botpress'],
     github: 'https://github.com/ViniciuspPantoja/AppMypet',
-    demo: '',
+    demo: 'https://expo.dev/artifacts/eas/v5hgn1frBh2LBRUmv34czzYdWkaPPDbWsh1-Sh4m-_8.apk',
   },
   {
     slug: 'ecommerce-platform',
