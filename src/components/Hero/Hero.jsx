@@ -13,7 +13,7 @@ export default function Hero() {
       </div>
 
       <h1 className={styles.greeting}>
-        Olá, eu sou <span className={styles.name}></span>
+        Olá, eu sou <span className={styles.name}>Murilo Cruz</span>
       </h1>
 
       <h2 className={styles.role}>Desenvolvedor Full Stack</h2>
