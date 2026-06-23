@@ -5,7 +5,7 @@ import styles from './NavBar.module.css';
 
 const NAV_LINKS = [
   { label: 'Sobre',       href: '#about'      },
-  { Label: 'Experiencia', href: '#experience'},
+  { label: 'Experiencia', href: '#experience' },
   { label: 'Projetos',    href: '#projects'   },
   { label: 'Habilidades', href: '#skills'     },
   { label: 'Contato',     href: '#contact'    },
