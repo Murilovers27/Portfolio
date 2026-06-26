@@ -19,7 +19,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'java',
     featured: false,
-    certificate: '/public/certificados/java/Programação_java I.pdf'
+    certificate: '/certificados/java/java-i-programacao.pdf'
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'java',
     featured: false,
-    certificate: '/public/certificados/java/Programação_java II.pdf'
+    certificate: '/certificados/java/java-ii-programacao.pdf'
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'java',
     featured: false,
-    certificate: '/public/certificados/java/Programação_java III.pdf'
+    certificate: '/certificados/java/java-iii-programacao.pdf'
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ export const ALL_COURSES = [
     status: 'ongoing',
     category: 'java',
     featured: false,
-    certificate: '/public/certificados/java/'
+    certificate: '/certificados/java/'
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'seguranca',
     featured: false,
-    certificate: '/public/certificados/segurança/LGDP.pdf'
+    certificate: '/certificados/segurança/lgpd.pdf'
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'seguranca',
     featured: false,
-    certificate: '/public/certificados/segurança/OWASP.pdf'
+    certificate: '/certificados/segurança/owasp-top-10.pdf'
   },
   {
     id: 7,
@@ -85,7 +85,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'seguranca',
     featured: false,
-    certificate: '/public/certificados/segurança/OWASP.pdf'
+    certificate: '/certificados/segurança/seguranca-ti.pdf'
   },
   {
     id: 8,
@@ -96,7 +96,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'git',
     featured: false,
-    certificate: '/public/certificados/gitHub/ Git e GitHub.pdf'
+    certificate: '/certificados/gitHub/git-e-github.pdf'
   },
   {
     id: 9,
@@ -107,7 +107,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'git',
     featured: false,
-    certificate: '/public/certificados/gitHub/IA_github.pdf'
+    certificate: '/certificados/gitHub/ia-no-github.pdf'
   },
   {
     id: 10,
@@ -118,7 +118,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'dados',
     featured: false,
-    certificate: '/public/certificados/bancoDeDados/Banco_de_Dados.pdf'
+    certificate: '/certificados/bancoDeDados/fundamentos-banco-dados-relacional.pdf'
   },
   {
     id:11,
@@ -129,7 +129,7 @@ export const ALL_COURSES = [
     status: 'concluded',
     category: 'dados',
     featured: false,
-    certificate: '/public/certificados/bancoDeDados/Banco_de_Dados_Oracle.pdf'
+    certificate: '/certificados/bancoDeDados/oracle-plsql.pdf'
   },
    
 ];

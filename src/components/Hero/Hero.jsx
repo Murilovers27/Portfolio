@@ -37,7 +37,7 @@ export default function Hero() {
         </a>
 
       <a
-          href="/public/Currículo - Murilo Cruz .pdf"
+          href="/curriculo-murilo-cruz.pdf"
           download="Murilo_Cruz_Curriculo.pdf"
           className={styles.btnCV}
         >
